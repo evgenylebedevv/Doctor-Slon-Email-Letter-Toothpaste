@@ -1,0 +1,174 @@
+
+html {
+    font-size: 15px;
+    color: #091219;
+}
+
+body {
+    font-size: 1rem;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+ul {
+
+}
+
+li {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+h1 {
+    display: block;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: #3a8bc7;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+h2, h3 {
+    font-size: 1.4rem;
+    line-height: 1.96rem;
+    color: #3a8bc7;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+a, link {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    max-width: 640px;
+}
+
+.block-doctorslon {
+    margin: 20px 0;
+    display: block;
+}
+
+.img-header {
+    width: 215px;
+    height: auto;
+}
+
+.background-img-block {
+    position: relative;
+    display: flex;
+    background-image: url("images/toothpaste-3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 242px;
+    border-radius: 16px;
+    box-shadow: 0 5px 20px rgb(0 0 0 / 15%);
+    margin-bottom: 20px;
+}
+
+.block-zagolovka {
+    position: absolute;
+    display: block;
+    background: rgba(255, 255, 255, 0.9);
+    /*width: 33%;*/
+    /*height: 10%;*/
+    padding: 10px 20px;
+    text-align: left;
+    margin-left: 7%;
+    margin-top: 7%;
+    border-radius: 16px;
+    box-shadow: 0 5px 20px rgb(0 0 0 / 15%);
+}
+
+.spasibo-zapokupku {
+    border-radius: 16px;
+    box-shadow: 0 5px 20px rgb(0 0 0 / 15%);
+    padding: 7px 10px;
+    margin-bottom: 20px;
+}
+
+.opisanie-pasti {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+    border-radius: 16px;
+    box-shadow: 0 5px 20px rgb(0 0 0 / 15%);
+    margin-bottom: 20px;
+}
+
+.opisanie-pasti__kartinka {
+    /*display: inline-block;*/
+    background-image: url("images/fon-pasta-vert.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 242px;
+    width: 46%;
+    bottom: 0;
+    left: 0;
+
+}
+
+.opisanie-pasti__text {
+    width: 46%;
+    text-align: left;
+    padding: 10px 20px 10px 20px;
+}
+
+.chto-est {
+    border-radius: 16px;
+    box-shadow: 0 5px 20px rgb(0 0 0 / 15%);
+    text-align: left;
+    padding: 10px 30px;
+    margin-bottom: 20px;
+}
+
+.ne-nashli {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border-radius: 16px;
+    box-shadow: 0 5px 20px rgb(0 0 0 / 15%);
+    margin-bottom: 20px;
+}
+
+.ne-nashli__kartinka {
+    background-image: url("images/toothpaste-qwestion.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 242px;
+    width: 46%;
+    bottom: 0;
+    right: 0;
+}
+
+.ne-nashli__text {
+    width: 46%;
+    text-align: right;
+    padding: 10px 20px 10px 20px;
+}
